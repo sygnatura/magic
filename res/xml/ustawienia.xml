@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+xmlns:android="http://schemas.android.com/apk/res/android">
+<CheckBoxPreference android:title="@string/title_sound" android:key="pref_sound" android:defaultValue="true" android:icon="@android:drawable/ic_lock_silent_mode_off"/>
+<CheckBoxPreference android:defaultValue="true" android:title="@string/title_vibration" android:key="pref_vibration" android:icon="@android:drawable/ic_input_get"/>
+
+
+
+
+
+
+
+
+</PreferenceScreen>

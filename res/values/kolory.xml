@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rozowy">#ff00ff</color>
+    <color name="czerwony">#cc0000</color>
+    <color name="zielony">#009933</color>
+    <color name="niebieski">#006699</color>
+    <color name="czarny">#000000</color>
+    <color name="bezowy">#efe2cf</color>
+    <color name="zolty">#f4e459</color>
+    <color name="fioletowy">#c451ff</color>
+    <color name="szary">#b5b5b5</color>
+    
+</resources>

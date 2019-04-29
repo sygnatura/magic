@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/czarny"
+    android:gravity="center"
+	android:id="@+id/RootView"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/buttonGuessNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:onClick="startGuessNumber"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rentgen" />
+
+    <ImageButton
+        android:id="@+id/buttonMindReader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:onClick="startMindReader"
+        android:scaleType="fitCenter"
+        android:src="@drawable/guessing" />
+
+    <ImageButton
+            android:id="@+id/buttonNumbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="startNumbers"
+            android:scaleType="fitCenter"
+            android:src="@drawable/magician" />
+
+</LinearLayout>

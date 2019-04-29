@@ -1,0 +1,458 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tlo_radial"
+	android:id="@+id/RootView"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+	<com.startapp.android.publish.banner.Banner 
+          android:id="@+id/startAppBanner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"/>
+    
+    <RelativeLayout
+        android:id="@+id/plansza1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/panelPrzyciski"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <Button
+                style="@style/purpurowy_przycisk"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="rozowy" />
+
+            <Button
+                style="@style/czerwony_przycisk"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="czerwony" />
+
+            <Button
+                style="@style/zielony_przycisk"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="zielony" />
+
+            <Button
+                style="@style/niebieski_przycisk"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="niebieski" />
+
+            <Button
+                style="@style/czarny_przycisk"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:onClick="czarny" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/opis1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/panelPrzyciski"
+            android:gravity="center"
+            android:text="@string/plansza1_opis"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <GridView
+            android:id="@+id/gridLiczby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/opis1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/panelPrzyciski"
+            android:background="@color/czarny"
+            android:columnWidth="60dp"
+            android:horizontalSpacing="1dp"
+            android:numColumns="5"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="1dp" >
+
+        </GridView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/plansza2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/opis3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/plansza2_opis"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+		        <GridView
+		            android:id="@+id/szachownica"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentBottom="true"
+		            android:layout_below="@id/opis3"
+		            android:layout_centerHorizontal="true"
+		            android:layout_centerVertical="true"
+		            android:layout_marginBottom="10dp"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"
+		            android:gravity="center"
+		            android:isScrollContainer="false"
+		            android:numColumns="3"
+		            android:scrollbars="none"
+		            android:stretchMode="columnWidth" />
+
+		        
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/plansza3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/opis2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/plansza3_opis"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <GridView
+                android:id="@+id/tablica1"
+                android:layout_width="70dp"
+                android:layout_height="95dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/opis2"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/phone1"
+                android:drawSelectorOnTop="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:numColumns="2"
+                android:paddingTop="6dp"
+                android:scrollbars="none" >
+
+            </GridView>
+
+            <GridView
+                android:id="@+id/tablica3"
+                android:layout_width="70dp"
+                android:layout_height="95dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/opis2"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/phone1"
+                android:clickable="false"
+                android:drawSelectorOnTop="false"
+                android:numColumns="2"
+                android:paddingTop="6dp"
+                android:scrollbars="none"
+                android:focusable="false"
+                android:focusableInTouchMode="false" >
+
+            </GridView>
+
+            <GridView
+                android:id="@+id/tablica4"
+                android:layout_width="70dp"
+                android:layout_height="95dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/phone1"
+                android:clickable="false"
+                android:drawSelectorOnTop="false"
+                android:numColumns="2"
+                android:paddingTop="6dp"
+                android:scrollbars="none"
+                android:focusable="false"
+                android:focusableInTouchMode="false" >
+
+            </GridView>
+
+            <GridView
+                android:id="@+id/tablica2"
+                android:layout_width="70dp"
+                android:layout_height="95dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/phone1"
+                android:clickable="false"
+                android:drawSelectorOnTop="false"
+                android:numColumns="2"
+                android:paddingTop="6dp"
+                android:scrollbars="none"
+                android:focusable="false"
+                android:focusableInTouchMode="false" >
+
+            </GridView>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_below="@id/opis2"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerInParent="true"
+		    android:gravity="center"
+		    android:orientation="vertical" >
+            
+			<GridView
+			    android:id="@+id/tablica5"
+			    android:layout_width="70dp"
+			    android:layout_height="95dp"
+			    android:background="@drawable/phone1"
+			    android:clickable="false"
+			    android:drawSelectorOnTop="false"
+			    android:numColumns="2"
+                android:paddingTop="6dp"
+                android:scrollbars="none"
+                android:focusable="false"
+                android:focusableInTouchMode="false" >
+
+            </GridView>
+            
+			<ImageButton
+			    android:id="@+id/b_tablica5"
+			    android:layout_width="80dp"
+			    android:layout_height="80dp"
+			    android:layout_marginTop="10dp"
+			    android:background="@android:color/transparent"
+			    android:onClick="b_tablica5"
+			    android:scaleType="fitCenter"
+			    android:src="@drawable/arrow_up" />
+			
+       </LinearLayout>
+            
+            <ImageButton
+                android:id="@+id/b_tablica2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignBottom="@id/tablica2"
+                android:layout_alignTop="@id/tablica2"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/tablica2"
+                android:background="@android:color/transparent"
+                android:onClick="b_tablica2"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_left" />
+            
+			<ImageButton
+			    android:id="@+id/b_tablica3"
+			    android:layout_width="80dp"
+			    android:layout_height="80dp"
+			    android:layout_alignBottom="@id/tablica3"
+			    android:layout_alignTop="@id/tablica3"
+			    android:layout_marginLeft="10dp"
+			    android:layout_toRightOf="@id/tablica3"
+			    android:background="@android:color/transparent"
+			    android:onClick="b_tablica3"
+			    android:scaleType="fitCenter"
+			    android:src="@drawable/arrow_left" />
+			
+			<ImageButton
+			    android:id="@+id/b_tablica1"
+			    android:layout_width="80dp"
+			    android:layout_height="80dp"
+			    android:layout_alignBottom="@id/tablica1"
+			    android:layout_alignTop="@id/tablica1"
+			    android:layout_marginRight="10dp"
+			    android:layout_toLeftOf="@id/tablica1"
+			    android:background="@android:color/transparent"
+			    android:onClick="b_tablica1"
+			    android:scaleType="fitCenter"
+			    android:src="@drawable/arrow_right" />
+			
+			<ImageButton
+			    android:id="@+id/b_tablica4"
+			    android:layout_width="80dp"
+			    android:layout_height="80dp"
+			    android:layout_alignBottom="@id/tablica4"
+			    android:layout_alignTop="@id/tablica4"
+			    android:layout_marginRight="10dp"
+			    android:layout_toLeftOf="@id/tablica4"
+			    android:background="@android:color/transparent"
+			    android:onClick="b_tablica4"
+			    android:scaleType="fitCenter"
+			    android:src="@drawable/arrow_right" />
+                
+        </RelativeLayout>
+	
+	<RelativeLayout
+	    android:id="@+id/plansza4"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:visibility="gone" >
+
+	    <TextView
+	        android:id="@+id/opis4"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="5dp"
+	        android:gravity="center"
+	        android:text="@string/plansza4_opis"
+	        android:textSize="13dp"
+	        android:textStyle="bold" />
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_below="@id/opis4"
+	        android:gravity="center"
+	        android:orientation="horizontal" >
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="10dp"
+	            android:layout_weight="1" >
+
+	            <ImageButton
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:layout_centerVertical="true"
+	                android:adjustViewBounds="false"
+	                android:background="@android:color/transparent"
+	                android:onClick="pokazKula1"
+	                android:scaleType="fitCenter"
+	                android:src="@drawable/crystal_ball" />
+
+	            <TextView
+	                android:id="@+id/wynik1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:layout_centerVertical="true"
+	                android:gravity="center"
+	                android:paddingBottom="60dp"
+	                android:textSize="40dp"
+	                android:textStyle="bold"
+	                android:visibility="gone" />
+
+	        </RelativeLayout>
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="10dp"
+	            android:layout_weight="1" >
+
+	            <ImageButton
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:layout_centerVertical="true"
+	                android:background="@android:color/transparent"
+	                android:onClick="pokazKula2"
+	                android:scaleType="fitCenter"
+	                android:src="@drawable/crystal_ball" />
+
+	            <TextView
+	                android:id="@+id/wynik2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:layout_centerVertical="true"
+	                android:gravity="center"
+	                android:paddingBottom="60dp"
+	                android:textSize="40dp"
+	                android:textStyle="bold"
+	                android:visibility="gone" />
+
+	        </RelativeLayout>
+
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="10dp"
+	            android:layout_weight="1" >
+
+	            <ImageButton
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:layout_centerVertical="true"
+	                android:background="@android:color/transparent"
+	                android:onClick="pokazKula3"
+	                android:scaleType="fitCenter"
+	                android:src="@drawable/crystal_ball" />
+
+	            <TextView
+	                android:id="@+id/wynik3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerHorizontal="true"
+	                android:layout_centerVertical="true"
+	                android:gravity="center"
+	                android:paddingBottom="60dp"
+	                android:textSize="40dp"
+	                android:textStyle="bold"
+	                android:visibility="gone" />
+
+	        </RelativeLayout>			
+	    </LinearLayout>
+
+	    <Button
+	        android:id="@+id/restartuj"
+	        style="@style/niebieski_przycisk"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="10dp"
+	        android:onClick="restartuj"
+	        android:text="@string/try_again"
+	        android:visibility="gone" />
+
+	</RelativeLayout>
+		
+</LinearLayout>

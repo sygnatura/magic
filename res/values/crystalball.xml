@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crystalball_opis">Think of a two-digit number... Add the two digits together and subtract this from your original number.&lt;br&gt;&lt;font color=#ff0000&gt;Example: 42... 4+2=6... 42-6&lt;/font&gt;&lt;br&gt;Find the symbol that matches your answer and remember it. When you\'re ready click the blue arrow.</string>
+    <string name="crystalball_wynik">You think about</string>
+    <string name="opis_wynik">Click the crystal ball and it will try to guess which symbol you think.</string>
+    
+</resources>

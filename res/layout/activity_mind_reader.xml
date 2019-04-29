@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/panel"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tlo1" >
+
+        <ImageButton
+            android:id="@+id/przyciskPomoc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:onClick="pokazPomoc"
+            android:scaleType="centerInside"
+            android:src="@drawable/help" />
+
+        <ImageButton
+            android:id="@+id/crystalBall"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:onClick="pokazWynik"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrow_right" />
+
+        <ImageButton
+            android:id="@+id/przyciskPowrot"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:onClick="wyjdz"
+            android:scaleType="centerInside"
+            android:src="@drawable/quit" />
+    </RelativeLayout>
+
+	<com.startapp.android.publish.banner.Banner 
+          android:id="@+id/startAppBanner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"/>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/startAppBanner"
+        android:layout_toLeftOf="@id/panel"
+        android:clickable="false"
+        android:columnWidth="60dp"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:scrollbars="vertical"
+        android:stretchMode="columnWidth" >
+
+    </GridView>
+
+</RelativeLayout>

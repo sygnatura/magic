@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plansza1">On a piece of paper write down a 3 or 4 digit number.&lt;br&gt;&lt;br&gt;Make it completly random with lots of different digits, like &lt;font color=#015ea1&gt;&lt;b&gt;6289&lt;/b&gt;&lt;/font&gt; or &lt;font color=#015ea1&gt;&lt;b&gt;4234&lt;/b&gt;&lt;/font&gt;.</string>
+    <string name="plansza2">Jumble up all the digits in your number to make another number.&lt;br&gt;&lt;br&gt;So if you chose &lt;font color=#015ea1&gt;&lt;b&gt;6289&lt;/b&gt;&lt;/font&gt; you could make &lt;font color=#015ea1&gt;&lt;b&gt;8926&lt;/b&gt;&lt;/font&gt;.</string>
+    <string name="plansza3">And now that you have two numbers, subtract the larger number from the smaller one.&lt;br&gt;&lt;br&gt;Eg. &lt;font color=#015ea1&gt;&lt;b&gt;8926 - 6289 = 2637&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Next draw a circle around one of the digits in your answer... (but don\'t pick 0 because that\'s already a circle)</string>
+    <string name="plansza4">Finally, jumble up all the number in your answer and type them in, except for the one you circled.&lt;br&gt;&lt;br&gt;So if your answer was &lt;font color=#015ea1&gt;&lt;b&gt;2637&lt;/b&gt;&lt;/font&gt; you could draw a circle around 3 and type in &lt;font color=#015ea1&gt;&lt;b&gt;267&lt;/b&gt;&lt;/font&gt;.</string>
+    <string name="plansza5">So many numbers ...&lt;br&gt;&lt;br&gt;But you picked ...</string>
+    <string name="plansza0">&lt;b&gt;Hello,&lt;br&gt;I\'m one hand magician and I have the ability to guess the single digits of your chosen number&lt;br&gt;&lt;br&gt;Want to let me read your mind ?&lt;/b&gt;</string>
+    <string name="napisz_tutaj">type here</string>
+    
+</resources>

@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:id="@+id/RootView"
+    android:background="@drawable/grey" >
+
+	<com.startapp.android.publish.banner.Banner 
+          android:id="@+id/startAppBanner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/plansza1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startAppBanner"
+        android:paddingTop="10dp"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/gora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/imageMagik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/opis1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cloud"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:paddingLeft="65dp"
+                android:paddingRight="55dp"
+                android:paddingTop="40dp"
+                android:textSize="@dimen/text_size"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/dalej"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:onClick="dalej"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrow_right" />
+        
+            <ImageButton
+                android:id="@+id/wstecz"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:onClick="wstecz"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_left"
+                android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/pozostaleLiczby"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/napisz_tutaj"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:visibility="gone" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/wynik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="110dp"
+            android:shadowColor="@color/czarny"
+            android:shadowDx="3"
+            android:shadowDy="0"
+            android:shadowRadius="3"
+            android:text="5"
+            android:textColor="@color/czerwony"
+            android:textSize="100dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/restartuj"
+            style="@style/niebieski_przycisk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:onClick="restartuj"
+            android:text="@string/try_again"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

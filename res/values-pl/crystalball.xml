@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crystalball_opis">Pomyśl o 2 cyfrowej liczbie.. Dodaj do siebie dwie cyfry tej liczby, a następnie wynik odejmij od oryginalnej liczby.&lt;br&gt;&lt;font color=#ff0000&gt;Przyklad: 42.. 4+2=6... 42-6&lt;/font&gt;&lt;br&gt;Następnie znajdź symbol przyporządkowany wynikowej liczbie i go zapamiętaj. Kiedy będziesz już gotowy(a) przejdź do następnego kroku klikając na strzałkę.</string>
+    <string name="crystalball_wynik">Myślisz o symbolu</string>
+    <string name="opis_wynik">Kliknij w kryształową kulę, a kula postara się odgadnąć symbol o którym myślisz.</string>
+    
+</resources>

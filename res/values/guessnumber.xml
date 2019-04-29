@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plansza1_opis">Please choose a number below and click the button that is the same color as your number.</string>
+    <string name="plansza2_opis">Picture your number in your head and click on one of the colors below.</string><string name="plansza3_opis">Now choose the phone that has your number in it by selecting the arrow.</string>
+    
+    <string name="plansza4_opis">Click on any crystal ball, one of them has your number.</string>
+    
+</resources>

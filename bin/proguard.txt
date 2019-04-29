@@ -1,0 +1,103 @@
+# view AndroidManifest.xml #generated:28
+-keep class com.startapp.android.publish.FullScreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.startapp.android.publish.OverlayActivity { <init>(...); }
+
+# view res/layout/activity_guessnumber.xml #generated:10
+# view res/layout/activity_mind_reader.xml #generated:53
+# view res/layout/activity_numbers.xml #generated:8
+-keep class com.startapp.android.publish.banner.Banner { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.startapp.android.publish.list3d.List3DActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class pl.mindreading.CrystalBall { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class pl.mindreading.CrystalBallResult { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class pl.mindreading.GuessNumber { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class pl.mindreading.Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class pl.mindreading.Numbers { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class pl.mindreading.Ustawienia { <init>(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:300
+-keepclassmembers class * { *** b_tablica1(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:274
+-keepclassmembers class * { *** b_tablica2(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:287
+-keepclassmembers class * { *** b_tablica3(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:313
+-keepclassmembers class * { *** b_tablica4(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:262
+-keepclassmembers class * { *** b_tablica5(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:64
+-keepclassmembers class * { *** czarny(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:40
+-keepclassmembers class * { *** czerwony(...); }
+
+# onClick res/layout/activity_numbers.xml #generated:51
+-keepclassmembers class * { *** dalej(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:56
+-keepclassmembers class * { *** niebieski(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:358
+-keepclassmembers class * { *** pokazKula1(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:389
+-keepclassmembers class * { *** pokazKula2(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:419
+-keepclassmembers class * { *** pokazKula3(...); }
+
+# onClick res/layout/activity_mind_reader.xml #generated:15
+-keepclassmembers class * { *** pokazPomoc(...); }
+
+# onClick res/layout/activity_mind_reader.xml #generated:28
+# onClick res/layout/wynik_mindreader.xml #generated:49
+-keepclassmembers class * { *** pokazWynik(...); }
+
+# onClick res/layout/wynik_mindreader.xml #generated:106
+-keepclassmembers class * { *** ponow(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:444
+# onClick res/layout/activity_numbers.xml #generated:108
+-keepclassmembers class * { *** restartuj(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:32
+-keepclassmembers class * { *** rozowy(...); }
+
+# onClick res/layout/activity_main.xml #generated:9
+-keepclassmembers class * { *** startGuessNumber(...); }
+
+# onClick res/layout/activity_main.xml #generated:20
+-keepclassmembers class * { *** startMindReader(...); }
+
+# onClick res/layout/activity_main.xml #generated:31
+-keepclassmembers class * { *** startNumbers(...); }
+
+# onClick res/layout/activity_numbers.xml #generated:63
+-keepclassmembers class * { *** wstecz(...); }
+
+# onClick res/layout/activity_mind_reader.xml #generated:39
+-keepclassmembers class * { *** wyjdz(...); }
+
+# onClick res/layout/activity_guessnumber.xml #generated:48
+-keepclassmembers class * { *** zielony(...); }
+

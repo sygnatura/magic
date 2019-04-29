@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plansza1">Zapisz na kartce dowolną liczbę 3 lub 4 cyfrową.&lt;br&gt;&lt;br&gt;Może to być dowolna losowa liczba jak np. &lt;font color=#015ea1&gt;&lt;b&gt;6289&lt;/b&gt;&lt;/font&gt; lub &lt;font color=#015ea1&gt;&lt;b&gt;4234&lt;/b&gt;&lt;/font&gt;. Nie powinna to być jednak liczba składająca się wyłącznie z tych samych cyfr jak np. &lt;font color=#015ea1&gt;&lt;b&gt;5555&lt;/b&gt;&lt;/font&gt;.&lt;br&gt;</string>
+    <string name="plansza2">Utwórz nową liczbę poprzez dowolne poprzestawianie cyfr z wybranej liczby.&lt;br&gt;&lt;br&gt;Więc np. dla liczby &lt;font color=#015ea1&gt;&lt;b&gt;6289&lt;/b&gt;&lt;/font&gt; można utworzyć liczbę &lt;font color=#015ea1&gt;&lt;b&gt;8926&lt;/b&gt;&lt;/font&gt;.</string>
+    <string name="plansza3">Teraz kiedy już posiadasz dwie liczby odejmij od większej liczby mniejszą liczbę.&lt;br&gt;&lt;br&gt;np. &lt;font color=#015ea1&gt;&lt;b&gt;8926 - 6289 = 2637&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Wybierz teraz z wynikowej liczby dowolną cyfrę i narysuj wokół niej koło lub ją zapamiętaj (z wyjątkiem 0 ponieważ jest kołem).</string>
+    <string name="plansza4">Wpisz w poniższe pole wszystkie cyfry z Twojego wyniku za wyjątkiem wybranej.&lt;br&gt;&lt;br&gt;Więc jeżeli Twój wynik wynosił &lt;font color=#015ea1&gt;&lt;b&gt;2637&lt;/b&gt;&lt;/font&gt; możesz wybrać np. 6 i wpisać pozostałe cyfry czyli &lt;font color=#015ea1&gt;&lt;b&gt;237&lt;/b&gt;&lt;/font&gt;.</string>
+    <string name="plansza5">Tyle liczb ... tyle możliwości ... &lt;br&gt;&lt;br&gt;Ale wybrana liczba to ...</string>
+    <string name="plansza0">&lt;b&gt;Witaj,&lt;br&gt;jestem jednorękim magikiem który posiada zdolność zgadywania jednej cyfry z wybranej przez Ciebie liczby.&lt;br&gt;&lt;br&gt;Przekonaj się sam&lt;/b&gt;</string>
+    <string name="napisz_tutaj">wpisz tutaj</string>
+    
+</resources>

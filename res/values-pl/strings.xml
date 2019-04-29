@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Czytacz Umysłu</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_mind_reader">MindReader</string>
+    <string name="title_activity_crystall_ball_result">CrystallBallResult</string>
+    <string name="try_again">Spróbuj ponownie</string>
+    <string name="title_vibration">Wibracje</string>
+    <string name="title_sound">Dźwięk</string>
+    <string name="menu_settings">Ustawienia</string>
+
+</resources>

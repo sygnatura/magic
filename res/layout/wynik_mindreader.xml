@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/opis_wynik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:shadowColor="@color/niebieski"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:text="@string/opis_wynik"
+        android:textSize="17dp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/kula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:onClick="pokazWynik"
+        android:paddingTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/crystal_ball2" />
+
+    <ImageView
+        android:id="@+id/znak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/ikona10"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/ponow"
+        style="@style/niebieski_przycisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="ponow"
+        android:text="@string/try_again"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/mysliszo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:shadowColor="@color/niebieski"
+        android:shadowDx="1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="@string/crystalball_wynik"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+</RelativeLayout>

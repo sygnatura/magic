@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plansza1_opis">Wybierz w pamięci liczbę z poniższej tabeli i ją zapamiętaj. Następnie dotknij przycisk o tym samym kolorze co wybrana liczba.</string>
+    <string name="plansza2_opis">Skoncentruj się na wybranej przez Ciebie liczbie po czym wybierz dowolny kolor.</string><string name="plansza3_opis">Wskaż strzałką telefon który posiada wybraną przez Ciebie liczbę</string>
+    
+    <string name="plansza4_opis">Kliknij w dowolną kryształową kulę, w jednej z nich znajduje się wybrana przez Ciebie liczba</string>
+    
+</resources>

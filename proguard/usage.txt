@@ -1,0 +1,17 @@
+pl.mindreading.BuildConfig
+pl.mindreading.Main:
+    public static final java.lang.String INTENT_KEY
+pl.mindreading.Numbers$PobieraczZdjec:
+    354:354:protected void onPostExecute(int)
+pl.mindreading.R
+pl.mindreading.R$attr
+pl.mindreading.R$color
+pl.mindreading.R$dimen
+pl.mindreading.R$drawable
+pl.mindreading.R$id
+pl.mindreading.R$layout
+pl.mindreading.R$menu
+pl.mindreading.R$raw
+pl.mindreading.R$string
+pl.mindreading.R$style
+pl.mindreading.R$xml
